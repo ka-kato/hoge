@@ -1,6 +1,6 @@
 package beans;
 
-//this is Japanese 社畜
+//this is Japanese 社畜　
 
 import javax.xml.bind.annotation.XmlRootElement;
 
