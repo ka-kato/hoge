@@ -1,6 +1,7 @@
 package beans;
 
 //this is Japanese 社畜　
+//ほげほげ
 
 import javax.xml.bind.annotation.XmlRootElement;
 
