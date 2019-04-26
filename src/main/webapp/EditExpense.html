@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="cache-control" content="no-cache" />
+<meta http-equiv="expires" content="0" />
+<title>経費編集ページ</title>
+<link rel="stylesheet" href="css/employeeStyle.css">
+</head>
+<body>
+<div id="detail">
+	<p>社員詳細データ：</p>
+	<form id="employeeForm" enctype="multipart/form-data">
+		<div class="error"></div>
+		<div>
+			<label for="id">ID:</label>
+			<input type="text" name="id" id="id" disabled>
+		</div>
+		<div>
+			<label for="title">タイトル:</label>
+			<input type="text" name="title" id="app-date">
+		</div>
+		<div>
+			<label for="payee">支払先:</label>
+			<input type="text" name="payee" id="payee">
+		</div>
+		<div>
+			<label for="amount">金額:</label>
+			<input type="text" name="amount" id="amount">
+		</div>
+		<div>
+			<label for="empId">社員ID:</label>
+			<input type="text" maxlength="10" name="empId" id="empId">
+		</div>
+		<div>
+			<label for="app-date">登録日:</label>
+			<input type="text" name="app-date" id="app-date">
+		</div>
+		<div>
+			<label for="edit-date">編集日:</label>
+			<input type="text" name="edit-date" id="edit-date">
+		</div>
+       	<div>
+			<button id="saveEmployee">保存</button>
+       	</div>
+	</form>
+	<button id="js-btn-back">戻る</button>
+	<div>
+		<button id="js-btn-apply">承認</button>
+		<button id="js-btn-reject">却下</button>
+		<input type="text" name="reject-reason" id="reject-reason">
+	</div>
+</div>
+
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/EditExpense.js"></script>
+</body>
+</html>
